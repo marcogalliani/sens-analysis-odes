@@ -15,10 +15,10 @@ pip install -r requirements.txt
 ```
 
 Finally, run the application
-```{python}
-streamlit run app.py
+```{bash}
+python -m streamlit run sb_correlation.py.py
 ```
-
 ## Future developments
-- make the model definition customizable
+- make the model definition customizable, using third-party mathematical engine to input the ODE model of interest
 - add correlation computation for PDEs
+  
